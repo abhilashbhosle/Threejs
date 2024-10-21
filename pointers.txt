@@ -1,0 +1,5 @@
+1. why gltf?
+Because glTF is focused on runtime asset delivery, it is compact to transmit and fast to load.
+Features include meshes, materials, textures, skins, skeletons, morph targets,
+animations, lights, and cameras.
+
