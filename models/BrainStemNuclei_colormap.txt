@@ -1,21 +1,21 @@
-1,	1.00,	0.00,	0.00,	1,	1,	1, Inferior colliculus			
-2,	0.00,	1.00,	0.00,	1,	1,	1, Superior Colliculus			
-3,	0.00,	0.00,	1.00,	1,	1,	1, Abducens Nucleus			
-4,	1.00,	1.00,	0.00,	1,	1,	1, Oculomotor nucleus		
-5,	0.00,	1.00,	1.00,	1,	1,	1, Trochlear nucleus			
-6,	1.00,	0.00,	1.00,	1,	1,	1, Red nucleus			
-7,	1.00,	0.94,	0.84,	1,	1,	1, Facial Nucleus			
-8,	1.00,	0.58,	0.58,	1,	1,	1, Motor N of Trigeminal		
-9,	0.80,	0.52,	0.25,	1,	1,	1, Principal Sensory N of Trigeminal			
-10,	0.67,	0.65,	0.31,	1,	1,	1, Inferior Olivary Nucleus			
-11,	1.00,	0.53,	0.00,	1,	1,	1, Hypoglossal nucleus			
-12,	0.54,	0.04,	1.00,	1,	1,	1, Dorsal Nucleus of Vagus			
-13,	0.72,	1.00,	1.00,	1,	1,	1, Nucleus Ambiguus			
-14,	0.00,	0.48,	0.33,	1,	1,	1, Trigeminal nerve			
-15,	1.00,	0.00,	0.36,	1,	1,	1, Facial nerve"			
-16,	0.42,	0.35,	0.80,	1,	1,	1, Vestibulo cochlear nerve			
-17,	0.05,	0.00,	0.99,	1,	1,	1, Glossopharyngeal			
-18,	1.00,	0.03,	0.00,	1,	1,	1, Vagus nerve			
+1,	1.00,	0.00,	0.00,	1,	1,	1, Brain_stem00001.stl			
+2,	0.00,	1.00,	0.00,	1,	1,	1, Brain_stem00002.stl			
+3,	0.00,	0.00,	1.00,	1,	1,	1, Brain_stem00003.stl		
+4,	1.00,	1.00,	0.00,	1,	1,	1, Brain_stem00004.stl		
+5,	0.00,	1.00,	1.00,	1,	1,	1, Brain_stem00005.stl			
+6,	1.00,	0.00,	1.00,	1,	1,	1, Brain_stem00006.stl			
+7,	1.00,	0.94,	0.84,	1,	1,	1, Brain_stem00007.stl			
+8,	1.00,	0.58,	0.58,	1,	1,	1, Brain_stem00008.stl		
+9,	0.80,	0.52,	0.25,	1,	1,	1, Brain_stem00009.stl			
+10,	0.67,	0.65,	0.31,	1,	1,	1, Brain_stem00010.stl			
+11,	1.00,	0.53,	0.00,	1,	1,	1, Brain_stem00011.stl			
+12,	0.54,	0.04,	1.00,	1,	1,	1, Brain_stem00012.stl		
+13,	0.72,	1.00,	1.00,	1,	1,	1, Brain_stem00013.stl		
+14,	0.00,	0.48,	0.33,	1,	1,	1, Brain_stem00014.stl		
+15,	1.00,	0.00,	0.36,	1,	1,	1, Brain_stem00015.stl			
+16,	0.42,	0.35,	0.80,	1,	1,	1, VBrain_stem00016.stl		
+17,	0.05,	0.00,	0.99,	1,	1,	1, Brain_stem00017.stl			
+18,	1.00,	0.03,	0.00,	1,	1,	1, Brain_stem00018.stl			
 19,	0.75,	0.00,	0.00,	1,	1,	1, Oculomotor nerve			
 20,	1.00,	0.98,	0.98,	1,	1,	1, Solitary nucleus (N. of Tractus Solitarius)			
 21,	0.44,	0.86,	0.44,	1,	1,	1, Vestibular nuclei			

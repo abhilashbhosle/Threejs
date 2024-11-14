@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { STLLoader } from "three/addons/loaders/STLLoader.js";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { stlFilePaths } from "./StlPath";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -30,52 +31,8 @@ controls.enableDamping = true; // Enable smooth damping (inertia)
 controls.dampingFactor = 0.05; // The amount of damping
 controls.screenSpacePanning = false; // Disable panning with right-click
 // controls.maxPolarAngle = Math.PI / 2; // Limit vertical rotation
-
 // Array of STL file paths
-const stlFiles = [
-  "/models/Nuclei00001.stl", // Add more STL file paths as needed
-  "/models/Nuclei00002.stl",
-  "/models/Nuclei00003.stl",
-  "/models/Nuclei00004.stl",
-  "/models/Nuclei00005.stl",
-  "/models/Nuclei00006.stl",
-  "/models/Nuclei00007.stl",
-  "/models/Nuclei00008.stl",
-  "/models/Nuclei00009.stl",
-  "/models/Nuclei00010.stl",
-  "/models/Nuclei00011.stl",
-  "/models/Nuclei00012.stl",
-  "/models/Nuclei00013.stl",
-  "/models/Nuclei00014.stl",
-  "/models/Nuclei00015.stl",
-  "/models/Nuclei00016.stl",
-  "/models/Nuclei00017.stl",
-  "/models/Nuclei00018.stl",
-  "/models/Nuclei00019.stl",
-  "/models/Nuclei00020.stl",
-  "/models/Nuclei00021.stl",
-  "/models/Nuclei00022.stl",
-  "/models/Nuclei00024.stl",
-  "/models/Brain_stem00001.stl",
-  "/models/Brain_stem00002.stl",
-  "/models/Brain_stem00003.stl",
-  "/models/Brain_stem00004.stl",
-  "/models/Brain_stem00005.stl",
-  "/models/Brain_stem00006.stl",
-  "/models/Brain_stem00007.stl",
-  "/models/Brain_stem00008.stl",
-  "/models/Brain_stem00009.stl",
-  "/models/Brain_stem00010.stl",
-  "/models/Brain_stem00011.stl",
-  "/models/Brain_stem00012.stl",
-  "/models/Brain_stem00013.stl",
-  "/models/Brain_stem00014.stl",
-  "/models/Brain_stem00015.stl",
-  "/models/Brain_stem00016.stl",
-  "/models/Brain_stem00017.stl",
-  "/models/Brain_stem00018.stl",
-];
-
+const stlFiles = stlFilePaths;
 // Load each STL file
 const loader = new STLLoader();
 stlFiles.forEach((filePath) => {
